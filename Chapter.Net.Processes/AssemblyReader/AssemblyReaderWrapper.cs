@@ -8,22 +8,23 @@ using System;
 
 // ReSharper disable once CheckNamespace
 
-namespace Chapter.Net.Processes;
-
-/// <summary>
-///     Reads information about the executable.
-/// </summary>
-public class AssemblyReaderWrapper : IAssemblyReader
+namespace Chapter.Net.Processes
 {
-    /// <inheritdoc />
-    public string GetExeLocation()
+    /// <summary>
+    ///     Reads information about the executable.
+    /// </summary>
+    public class AssemblyReaderWrapper : IAssemblyReader
     {
-        return AssemblyReader.GetExeLocation();
-    }
+        /// <inheritdoc />
+        public string GetExeLocation()
+        {
+            return AssemblyReader.GetExeLocation();
+        }
 
-    /// <inheritdoc />
-    public Version GetExeVersion()
-    {
-        return AssemblyReader.GetExeVersion();
+        /// <inheritdoc />
+        public Version GetExeVersion()
+        {
+            return AssemblyReader.GetExeVersion();
+        }
     }
 }

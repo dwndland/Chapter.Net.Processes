@@ -10,31 +10,32 @@ using System.Reflection;
 
 // ReSharper disable once CheckNamespace
 
-namespace Chapter.Net.Processes;
-
-/// <summary>
-///     Reads information about the executable.
-/// </summary>
-public static class AssemblyReader
+namespace Chapter.Net.Processes
 {
     /// <summary>
-    ///     Reads the location of the executable.
+    ///     Reads information about the executable.
     /// </summary>
-    /// <returns>The location of the executable.</returns>
-    public static string GetExeLocation()
+    public static class AssemblyReader
     {
-        var assembly = Assembly.GetEntryAssembly();
-        return Path.GetDirectoryName(assembly!.Location);
-    }
+        /// <summary>
+        ///     Reads the location of the executable.
+        /// </summary>
+        /// <returns>The location of the executable.</returns>
+        public static string GetExeLocation()
+        {
+            var assembly = Assembly.GetEntryAssembly();
+            return Path.GetDirectoryName(assembly.Location);
+        }
 
-    /// <summary>
-    ///     Reads the version of the executable.
-    /// </summary>
-    /// <returns>The version of the executable.</returns>
-    public static Version GetExeVersion()
-    {
-        var assembly = Assembly.GetEntryAssembly();
-        var assemblyName = assembly!.GetName();
-        return assemblyName.Version;
+        /// <summary>
+        ///     Reads the version of the executable.
+        /// </summary>
+        /// <returns>The version of the executable.</returns>
+        public static Version GetExeVersion()
+        {
+            var assembly = Assembly.GetEntryAssembly();
+            var assemblyName = assembly.GetName();
+            return assemblyName.Version;
+        }
     }
 }
