@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/dwndland/Chapter.Net.Processes/master/Icon.png" alt="logo" width="64"/>
+<img src="https://raw.githubusercontent.com/dwndlnd/Chapter.Net.Processes/master/Icon.png" alt="logo" width="64"/>
 
 # Chapter.Net.Processes Library
 
@@ -119,7 +119,7 @@ Chapter.Net.Processes brings access and handlers to local processes and assembli
 
 ## Links
 * [NuGet](https://www.nuget.org/packages/Chapter.Net.Processes)
-* [GitHub](https://github.com/dwndland/Chapter.Net.Processes)
+* [GitHub](https://github.com/dwndlnd/Chapter.Net.Processes)
 
 ## License
 Copyright (c) David Wendland. All rights reserved.
