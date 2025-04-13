@@ -4,8 +4,8 @@
     <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <Version>2.1.0</Version>
     <Authors>David Wendland</Authors>
-    <Description>Chapter.Net.Processes brings access and handlers to local processes and assemblies.</Description>
-    <Copyright>Copyright (c) 2024 David Wendland</Copyright>
+    <Description>Chapter.Net.Processes is a utility library that provides helper classes for working with assemblies, managing processes, and interacting with the execution environment in .NET applications.</Description>
+    <Copyright>Copyright (c) 2025 David Wendland</Copyright>
     <PackageProjectUrl>https://github.com/dwndland/Chapter.Net.Processes</PackageProjectUrl>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>

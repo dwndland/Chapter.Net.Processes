@@ -3,7 +3,7 @@
 # Chapter.Net.Processes Library
 
 ## Overview
-Chapter.Net.Processes brings access and handlers to local processes and assemblies.
+Chapter.Net.Processes is a utility library that provides helper classes for working with assemblies, managing processes, and interacting with the execution environment in .NET applications.
 
 ## Features
 - **IAssemblyReader:** Reads data from the current executable.
